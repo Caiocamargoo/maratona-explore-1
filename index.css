@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body {
+  color: white;
+  width: auto;
+  text-align: center;
+  margin-top: 100px;
+  font-family: sans-serif;
+  background-image: url(https://t2.tudocdn.net/611091);
+  background-size: cover;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  height: 70vh;
+  }
+  img {
+    margin-bottom: 20px;
+    opacity: 1.0;
+  }
+#container {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.351);
+  max-width: 400px;
+  border: 2px solid rgb(165, 164, 167);
+  padding: 20px;
+  margin-inline: auto;
+  border-radius: 20px;
+  box-shadow: inset 0 0 1em rgb(255, 247, 0), 0 0 1em rgb(228, 42, 42)   
+}
+h1 {
+  margin-bottom: 20px;
+  color: white
+}
+p {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+input, button {
+  display: block;
+  padding: 17px;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;  
+}
+input {
+  font-size: 15px;
+  margin-bottom: 10px; 
+}
+button {
+  border: border;
+  background-color: rgb(182, 15, 15);
+  font-size: 18px;
+  color: white;
+  transition: filter .2s;
+  opacity:;
+}
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.2)
+}
+
+h3 {
+  margin-top: 20px;
+  color: rgb(211, 242, 9);
+}
+
+#resposta {
+  margin-top: 30px;
+
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
